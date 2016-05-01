@@ -1,26 +1,36 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# NTU Mission 臺大總動員
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+## 版本控制模式
 
-## Getting Started
+以 `master` 分支為主要版本，反映伺服器上的狀態。
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+每次要修改的時候，先從既有的版本建立新的 branch（例如 `patch-2nd-wave`）：
 
-## Bugs and Issues
+```
+# 建立分支
+git checkout -b patch-2nd-wave
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+# 做些修改
+...
+git commit
 
-## Creator
+# 推送版本到伺服器上
+git push origin patch-2nd-wave
+```
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+然後再以 **pull request** 的方式提交修改。當網管小組收到 PR 通知時，就會在 merge 之後、於伺服器端 `git pull` `master` 分支上的所有更新。
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+這時就可以回到 `master` 分支上了：
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+```
+# 切換工作分支為 master
+git checkout master
 
-## Copyright and License
+# 從遠端取得 master 的更新至本地
+git pull --rebase
+```
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+
+## 授權
+
+Grayscale copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
