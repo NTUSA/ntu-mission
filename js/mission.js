@@ -94,6 +94,24 @@ function ntui16() {
 function rntui16(){
 	document.getElementById("ntui16").style.display ="none";
 }
+function ntui17() {
+	document.getElementById("ntui17").style.display ="";
+}
+function rntui17(){
+	document.getElementById("ntui17").style.display ="none";
+}
+function ntui18() {
+	document.getElementById("ntui18").style.display ="";
+}
+function rntui18(){
+	document.getElementById("ntui18").style.display ="none";
+}
+function ntui19() {
+	document.getElementById("ntui19").style.display ="";
+}
+function rntui19(){
+	document.getElementById("ntui19").style.display ="none";
+}
 //campus
 
 
@@ -253,6 +271,12 @@ function ntuc26() {
 function rntuc26(){
 	document.getElementById("ntuc26").style.display ="none";
 }
+function ntuc27() {
+	document.getElementById("ntuc27").style.display ="";
+}
+function rntuc27(){
+	document.getElementById("ntuc27").style.display ="none";
+}
 
 function test(){
 	document.getElementById("ntui01").style.background ="white";
@@ -299,6 +323,24 @@ function ntul7() {
 }
 function rntul7(){
 	document.getElementById("ntul7").style.display ="none";
+}
+function ntul8() {
+	document.getElementById("ntul8").style.display ="";
+}
+function rntul8(){
+	document.getElementById("ntul8").style.display ="none";
+}
+function ntul9() {
+	document.getElementById("ntul9").style.display ="";
+}
+function rntul9(){
+	document.getElementById("ntul9").style.display ="none";
+}
+function ntul10() {
+	document.getElementById("ntul10").style.display ="";
+}
+function rntul10(){
+	document.getElementById("ntul10").style.display ="none";
 }
 //fun
 function ntuf1() {
@@ -390,6 +432,24 @@ function ntuf15() {
 }
 function rntuf15(){
 	document.getElementById("ntuf15").style.display ="none";
+}
+function ntuf16() {
+	document.getElementById("ntuf16").style.display ="";
+}
+function rntuf16(){
+	document.getElementById("ntuf16").style.display ="none";
+}
+function ntuf17() {
+	document.getElementById("ntuf17").style.display ="";
+}
+function rntuf17(){
+	document.getElementById("ntuf17").style.display ="none";
+}
+function ntuf18() {
+	document.getElementById("ntuf18").style.display ="";
+}
+function rntuf18(){
+	document.getElementById("ntuf18").style.display ="none";
 }
 //emotion
 function ntue1() {
