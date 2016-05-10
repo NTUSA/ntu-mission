@@ -277,7 +277,95 @@ function ntuc27() {
 function rntuc27(){
 	document.getElementById("ntuc27").style.display ="none";
 }
-
+function ntuc28() {
+	document.getElementById("ntuc28").style.display ="";
+}
+function rntuc28(){
+	document.getElementById("ntuc28").style.display ="none";
+}
+function ntuc29() {
+	document.getElementById("ntuc29").style.display ="";
+}
+function rntuc29(){
+	document.getElementById("ntuc29").style.display ="none";
+}
+function ntuc30() {
+	document.getElementById("ntuc30").style.display ="";
+}
+function rntuc30(){
+	document.getElementById("ntuc30").style.display ="none";
+}
+function ntuc31() {
+	document.getElementById("ntuc31").style.display ="";
+}
+function rntuc31(){
+	document.getElementById("ntuc31").style.display ="none";
+}function ntuc32() {
+	document.getElementById("ntuc32").style.display ="";
+}
+function rntuc32(){
+	document.getElementById("ntuc32").style.display ="none";
+}
+function ntuc33() {
+	document.getElementById("ntuc33").style.display ="";
+}
+function rntuc33(){
+	document.getElementById("ntuc33").style.display ="none";
+}
+function ntuc34() {
+	document.getElementById("ntuc34").style.display ="";
+}
+function rntuc34(){
+	document.getElementById("ntuc34").style.display ="none";
+}
+function ntuc35() {
+	document.getElementById("ntuc35").style.display ="";
+}
+function rntuc35(){
+	document.getElementById("ntuc35").style.display ="none";
+}
+function ntuc36() {
+	document.getElementById("ntuc36").style.display ="";
+}
+function rntuc36(){
+	document.getElementById("ntuc36").style.display ="none";
+}
+function ntuc37() {
+	document.getElementById("ntuc37").style.display ="";
+}
+function rntuc37(){
+	document.getElementById("ntuc37").style.display ="none";
+}
+function ntuc38() {
+	document.getElementById("ntuc38").style.display ="";
+}
+function rntuc38(){
+	document.getElementById("ntuc38").style.display ="none";
+}
+function ntuc39() {
+	document.getElementById("ntuc39").style.display ="";
+}
+function rntuc39(){
+	document.getElementById("ntuc39").style.display ="none";
+}
+function ntuc40() {
+	document.getElementById("ntuc40").style.display ="";
+}
+function rntuc40(){
+	document.getElementById("ntuc40").style.display ="none";
+}
+function ntuc41() {
+	document.getElementById("ntuc41").style.display ="";
+}
+function rntuc41(){
+	document.getElementById("ntuc41").style.display ="none";
+}
+function ntuc42() {
+	document.getElementById("ntuc42").style.display ="";
+}
+function rntuc42(){
+	document.getElementById("ntuc42").style.display ="none";
+}
 function test(){
 	document.getElementById("ntui01").style.background ="white";
 }
